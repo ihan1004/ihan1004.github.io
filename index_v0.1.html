@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프로그램 소개</title>
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 20px;
+        }
+        .program-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 2rem;
+            transition: transform 0.3s ease;
+        }
+        .program-card:hover {
+            transform: translateY(-5px);
+        }
+        .program-card h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .program-features {
+            margin: 1.5rem 0;
+        }
+        .program-features li {
+            margin-bottom: 10px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
+        .screenshots {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .screenshots img {
+            max-width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>프로그램 소개</h1>
+    </header>
+    
+    <nav>
+        <a href="#remove-empty-lines">Remove Empty Lines</a>
+        <a href="#coding-helper">Coding Helper</a>
+        <a href="#contact">문의하기</a>
+    </nav>
+    
+    <div class="container">
+        <section id="remove-empty-lines" class="program-card">
+            <h2>Remove Empty Lines</h2>
+            <p>Remove Empty Lines는 텍스트에서 빈 줄을 쉽게 제거할 수 있는 편리한 도구입니다. 코드 정리, 텍스트 파일 정리 등 다양한 상황에서 활용할 수 있습니다.</p>
+            
+            <div class="screenshots">
+                <img src="/api/placeholder/600/400" alt="Remove Empty Lines 스크린샷">
+            </div>
+            
+            <div class="program-features">
+                <h3>주요 기능</h3>
+                <ul>
+                    <li>텍스트에서 빈 줄 자동 제거</li>
+                    <li>간편한 사용자 인터페이스</li>
+                    <li>빠른 처리 속도</li>
+                    <li>원본 텍스트와 처리된 텍스트 비교 가능</li>
+                </ul>
+            </div>
+            
+            <a href="https://ihan1004.github.io/remove_empty_lines/" class="button">프로그램 사용하기</a>
+        </section>
+        
+        <section id="coding-helper" class="program-card">
+            <h2>Coding Helper</h2>
+            <p>Coding Helper는 프로그래밍 작업을 더 효율적으로 할 수 있도록 도와주는 도구입니다. 코드 스니펫 관리, 자동 포맷팅 등 다양한 기능을 제공합니다.</p>
+            
+            <div class="screenshots">
+                <img src="/api/placeholder/600/400" alt="Coding Helper 스크린샷">
+            </div>
+            
+            <div class="program-features">
+                <h3>주요 기능</h3>
+                <ul>
+                    <li>코드 스니펫 저장 및 관리</li>
+                    <li>다양한 프로그래밍 언어 지원</li>
+                    <li>코드 자동 포맷팅</li>
+                    <li>문법 강조 표시</li>
+                    <li>다양한 테마 제공</li>
+                </ul>
+            </div>
+            
+            <a href="https://ihan1004.github.io/Coding_Helper/" class="button">프로그램 사용하기</a>
+        </section>
+        
+        <section id="contact" class="program-card">
+            <h2>문의하기</h2>
+            <p>프로그램 사용 중 문제가 발생하거나 기능 개선에 대한 제안이 있으시면 아래 연락처로 문의해 주세요.</p>
+            
+            <div class="contact-info">
+                <p>📧 이메일: contact@example.com</p>
+                <p>🌐 GitHub: <a href="https://github.com/ihan1004">https://github.com/ihan1004</a></p>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 프로그램 소개 페이지. All rights reserved.</p>
+    </footer>
+</body>
+</html>

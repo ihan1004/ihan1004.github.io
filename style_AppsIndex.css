@@ -1,0 +1,121 @@
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 20px;
+        }
+        .programs-container {
+            display: flex;
+            flex-direction: row; /* 명시적으로 행 방향 지정 */
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .program-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.3s ease;
+            width: calc(50% - 10px); /* 너비 정확히 계산 */
+            flex: 0 0 calc(50% - 10px); /* flex-grow, flex-shrink, flex-basis 설정 */
+            box-sizing: border-box; /* 패딩과 테두리를 너비에 포함 */
+        }
+        .program-card:hover {
+            transform: translateY(-5px);
+        }
+        .program-card h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .program-features {
+            margin: 1.5rem 0;
+        }
+        .program-features li {
+            margin-bottom: 10px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
+        .screenshots {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .screenshots img {
+            max-width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .contact-card {
+            width: 100%;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 1rem;
+            box-sizing: border-box; /* 패딩과 테두리를 너비에 포함 */
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        
+        /* 미디어 쿼리는 768px 이하일 때만 적용되게 명확히 함 */
+        @media (max-width: 768px) {
+            .programs-container {
+                flex-direction: column;
+            }
+            .program-card {
+                width: 100%;
+                flex: 0 0 100%;
+            }
+            .container {
+                padding: 0 10px;
+            }
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
