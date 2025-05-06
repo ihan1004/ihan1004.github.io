@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d8498ee.css",
-    "main.js": "/static/js/main.583606e1.js",
+    "main.css": "/static/css/main.b8e059f1.css",
+    "main.js": "/static/js/main.63ba4927.js",
     "static/js/453.e7e9f32a.chunk.js": "/static/js/453.e7e9f32a.chunk.js",
     "static/media/review.gif": "/static/media/review.3752ad652852d54eaf48.gif",
     "static/media/project1.png": "/static/media/project1.37eb17f233da9a65cb71.png",
@@ -10,20 +10,20 @@
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.da1d86372e25a26cea6d.svg",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.ef49dc870dcc8a260142.svg",
     "static/media/main.png": "/static/media/main.e4f071f0d0417b70fcf6.png",
+    "static/media/TextHelper.png": "/static/media/TextHelper.a941044a892868289f6a.png",
     "static/media/fa-solid-900.eot": "/static/media/fa-solid-900.a6bfa3bfff5ce468c944.eot",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.c3b61c17151e685fe3e9.ttf",
     "static/media/fa-brands-400.eot": "/static/media/fa-brands-400.bc0874463d76a39f8c36.eot",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.e5842d3dedd2ec702496.ttf",
     "static/media/fa-regular-400.svg": "/static/media/fa-regular-400.8e2e5fadaa29e1a17155.svg",
+    "static/media/RemoveEmptyLines.png": "/static/media/RemoveEmptyLines.db1dbef05b51cc00ab1a.png",
     "static/media/aside-top-Photoroom.jpg": "/static/media/aside-top-Photoroom.272dacf8c3b57b13f983.jpg",
     "static/media/fa-brands-400.woff": "/static/media/fa-brands-400.301f4b46fb0b222a847c.woff",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.c1c779c74a8cbd9aa0be.woff2",
     "static/media/fa-solid-900.woff": "/static/media/fa-solid-900.2dc5e5e597cc267a44f1.woff",
     "static/media/TextHelper2.png": "/static/media/TextHelper2.f6cc2df2284c369dcac2.png",
     "static/media/TextHelper1.png": "/static/media/TextHelper1.370c1c0b5f135a7365e2.png",
-    "static/media/Coding_Helper.png": "/static/media/Coding_Helper.4665e993c1e328daf6c5.png",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.84adaad90c95a8b3ec8c.woff2",
-    "static/media/remove_empty_lines.png": "/static/media/remove_empty_lines.cd007a3c3a2c721f614e.png",
     "static/media/fa-regular-400.eot": "/static/media/fa-regular-400.3113d9f581842b8a18cd.eot",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.709b95b24ce7c314b8e3.ttf",
     "static/media/CodingHelper_manual_06.png": "/static/media/CodingHelper_manual_06.ae3d360471306121a258.png",
@@ -32,12 +32,12 @@
     "static/media/CodingHelper_manual_03.png": "/static/media/CodingHelper_manual_03.391e7a446162cb803edb.png",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.31af9cf40eae7f287c32.woff2",
     "index.html": "/index.html",
-    "main.4d8498ee.css.map": "/static/css/main.4d8498ee.css.map",
-    "main.583606e1.js.map": "/static/js/main.583606e1.js.map",
+    "main.b8e059f1.css.map": "/static/css/main.b8e059f1.css.map",
+    "main.63ba4927.js.map": "/static/js/main.63ba4927.js.map",
     "453.e7e9f32a.chunk.js.map": "/static/js/453.e7e9f32a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d8498ee.css",
-    "static/js/main.583606e1.js"
+    "static/css/main.b8e059f1.css",
+    "static/js/main.63ba4927.js"
   ]
 }
